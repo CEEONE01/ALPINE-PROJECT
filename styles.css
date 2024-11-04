@@ -1,0 +1,123 @@
+*{  
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}  
+body{
+    font-family: inter;
+}
+header{
+    background-color:#F3F3F3;
+    
+}
+.inner-container{
+    max-width: 1280px;
+    margin:auto;
+    /* background-color: #F3F3F3; */
+}
+.line {  
+    width: 10px;  
+    height: 2px;           
+    background-color:#0a0909;
+    margin: 4px 0; 
+}
+    
+.menu-icon{
+    color: rgba(7, 11, 11, 0.816); 
+    margin: 10px; 
+    position: space between;
+    justify-content:flex-start;
+}
+       
+ .nav {
+    display: flex;
+    justify-content:space-between;
+    flex-direction: flex-start;
+    align-items: center;
+    padding: 26.5px 50px;
+}
+.login{
+    display:flex;
+    align-items: center;
+    gap:5px ;
+}
+.login li{
+    list-style: none;
+    font-size: 18px;
+}
+main{
+    background-color: #F3F3F3;
+}
+
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:70px 10px;
+    
+
+}
+.hero-header h1{
+    font-size: 28px;
+    padding-bottom: 15px;
+}
+.hero-header p{
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.buy{
+  padding:10px 52px;
+  margin-top: 50px;
+  background-color: transparent;
+  font-size: 16px;
+}
+
+.glasses{
+   text-align: center;
+}
+.select-option{
+    position: relative;
+    left:-10px;
+    top:50px;
+}
+.list{
+    display: flex;
+    justify-content: center;
+    list-style:none;
+    gap: 21px;
+    margin:64px;
+}
+.list-product{
+    display: flex;
+    background-color: #F3F3F3;
+    margin-top: 70px;
+    width: 289px;
+    padding: 24px;
+    position: relative;
+    text-align: center;
+
+
+    
+   
+}
+.product-container{
+    display: flex;
+    gap: 50px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;   
+}
+.cart-logo{
+    position: absolute;
+    top: 14px;
+    right:18px;
+    
+}
+.another-classs{
+    max-width: 1180px;
+}
+.list-product h3{
+    width:220px;
+    height:26px;
+}
